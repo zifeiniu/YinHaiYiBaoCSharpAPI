@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{974739AD-3F29-4941-B0CB-A30ACAC1F07E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Model生成器</RootNamespace>
+    <AssemblyName>Model生成器</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="入参列表\上传目录删除.txt" />
+    <Content Include="入参列表\中心ICD10数据下载.txt" />
+    <Content Include="入参列表\住院模拟结算.txt" />
+    <Content Include="入参列表\住院结算、退费信息查询.txt" />
+    <Content Include="入参列表\住院结算回退.txt" />
+    <Content Include="入参列表\住院费用明细写入.txt" />
+    <Content Include="入参列表\住院费用结算.txt" />
+    <Content Include="入参列表\作废转科信息.txt" />
+    <Content Include="入参列表\入院办理.txt" />
+    <Content Include="入参列表\入院办理信息修改.txt" />
+    <Content Include="入参列表\入院办理回退.txt" />
+    <Content Include="入参列表\出院办理.txt" />
+    <Content Include="入参列表\出院办理回退.txt" />
+    <Content Include="入参列表\出院清算方式认定.txt" />
+    <Content Include="入参列表\医保结算单打印.txt" />
+    <Content Include="入参列表\单次结算信息查询.txt" />
+    <Content Include="入参列表\待遇审批信息.txt" />
+    <Content Include="入参列表\查询上传目录.txt" />
+    <Content Include="入参列表\查询转科信息.txt" />
+    <Content Include="入参列表\清算单明细打印.txt" />
+    <Content Include="入参列表\清算回退.txt" />
+    <Content Include="入参列表\清算申请.txt" />
+    <Content Include="入参列表\清算申请单打印.txt" />
+    <Content Include="入参列表\清算申请查询.txt" />
+    <Content Include="入参列表\目录上传.txt" />
+    <Content Include="入参列表\耗材打包.txt" />
+    <Content Include="入参列表\获取中心医保标准目录.txt" />
+    <Content Include="入参列表\获取中心目录变更日志.txt" />
+    <Content Include="入参列表\记录转科信息.txt" />
+    <Content Include="入参列表\费用明细退单.txt" />
+    <Content Include="入参列表\身份识别.txt" />
+    <Content Include="入参列表\门诊结算.txt" />
+    <Content Include="出参列表\中心ICD10数据下载.txt" />
+    <Content Include="出参列表\住院模拟结算.txt" />
+    <Content Include="出参列表\住院结算、退费信息查询.txt" />
+    <Content Include="出参列表\住院费用明细写入.txt" />
+    <Content Include="出参列表\住院费用结算.txt" />
+    <Content Include="出参列表\入院办理.txt" />
+    <Content Include="出参列表\单次结算信息查询.txt" />
+    <Content Include="出参列表\查询上传目录.txt" />
+    <Content Include="出参列表\查询转科信息.txt" />
+    <Content Include="出参列表\清算申请.txt" />
+    <Content Include="出参列表\清算申请查询.txt" />
+    <Content Include="出参列表\编码对照信息获取.txt" />
+    <Content Include="出参列表\获取中心医保标准目录.txt" />
+    <Content Include="出参列表\获取中心目录变更日志.txt" />
+    <Content Include="出参列表\获取医保中心日期.txt" />
+    <Content Include="出参列表\获取医院信息.txt" />
+    <Content Include="出参列表\获取医院开通支付类别.txt" />
+    <Content Include="出参列表\记录转科信息.txt" />
+    <Content Include="出参列表\身份识别.txt" />
+    <Content Include="出参列表\门诊结算.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

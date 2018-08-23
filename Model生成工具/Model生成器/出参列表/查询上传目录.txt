@@ -1,0 +1,18 @@
+prm_yae099	申请流水号
+prm_name	申请人
+prm_sbxmbm	医保通用项目编码
+prm_xmbm	医院项目流水号
+prm_xmmc	医院项目通用名称
+prm _xmsp	医院项目商品名称
+prm_xmgg	医院使用规格
+prm_jx	医院使用剂型
+prm_xmdw	医院使用的计价单位
+prm_xmrj	热键(药品的五笔编码或汉字拼音编码)
+prm_xmjg	价格
+prm_aae036	审核时间
+Prm_aae011	审核人
+Prm_shbz	审核标志
+Prm_shyy	审核原因
+prm_sccj	生产厂家
+prm_flag	进出口标志
+prm_bz	备注

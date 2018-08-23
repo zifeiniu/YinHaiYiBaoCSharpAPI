@@ -1,0 +1,9 @@
+prm_ akc190	就诊编号
+prm_ykb065	社会保险执行办法
+prm_yke389	转出科室名称
+prm_yke390	转入科室名称
+prm_yke396	转科时间
+prm_aae011	经办人编码
+prm_ykc141	经办人姓名
+prm_aae036	经办时间
+prm_aae013	备注

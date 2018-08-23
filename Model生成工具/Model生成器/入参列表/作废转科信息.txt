@@ -1,0 +1,5 @@
+prm_ akc190	就诊编号
+prm_ yae099	业务流水号
+prm_yke393	作废经办姓名
+prm_yke048	作废经办时间
+prm_aae013	备注

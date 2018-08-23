@@ -1,0 +1,7 @@
+prm_akc190	就诊编号
+prm_yka105	记账流水号
+prm_aac001	个人编码
+prm_yka002	医保通用项目编码
+prm_ykc141	经办人名称
+prm_yke301	耗材套对应中心目录编码
+prm_yke302	套编号

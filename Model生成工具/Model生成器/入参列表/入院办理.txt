@@ -1,0 +1,14 @@
+prm_ykc010	住院号
+prm_akc192	入院日期
+prm_akc193	入院诊断名称
+prm_yke120	入院诊断ICD编码
+prm_ykc012	入院床位
+prm_ykc011	入院科室
+prm_ykc013	入院经办人编码
+prm_ykc141	入院经办人姓名
+prm_ykc014	入院经办时间
+prm_ykc292	分娩类型
+prm_ykc296	居民普通住院病种
+prm_ykc009	病历号
+prm_aae013	备注
+prm_hisbh	HIS厂商编号

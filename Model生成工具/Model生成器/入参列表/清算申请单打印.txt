@@ -1,0 +1,5 @@
+prm_ykb037	清算分中心
+prm_ykb053	清算申请流水号
+prm_ykb065	执行社会保险办法         
+prm_yka054	清算方式         
+prm_aka130	支付类别         

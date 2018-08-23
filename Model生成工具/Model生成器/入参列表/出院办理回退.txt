@@ -1,0 +1,7 @@
+prm_akc190	就诊编号
+prm_aka130	支付类别
+prm_ykc141	经办人姓名
+prm_aae036	经办时间
+prm_yab003	分中心编号
+prm_aac001	个人编号
+prm_ykb065	社会保险办法

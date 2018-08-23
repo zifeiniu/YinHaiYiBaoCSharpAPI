@@ -1,0 +1,14 @@
+prm_akb021	服务机构名称
+prm_yke362	医院类别
+prm_aka101	医疗等级
+prm_akb023	医疗机构类别
+prm_akb022	服务机构类型
+prm_aae004	联系人姓名
+prm_aae005	联系人电话
+prm_aae006	地址
+prm_aae007	邮编
+prm_zykt	是否开通住院
+prm_aka130	门诊特检
+prm_mztc	居民门诊统筹
+prm_dxsmztc	大学生门诊统筹
+prm_ptmz	普通门诊

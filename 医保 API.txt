@@ -1,0 +1,19 @@
+
+http://127.0.0.1:8989/API/YiBao/InitProcess
+
+§1.9.1.	获取医保中心日期（52）
+http://127.0.0.1:8989/API/YiBao/GetYiBaoDate
+
+§1.9.2.	获取医院信息（04）
+http://127.0.0.1:8989/API/YiBao/GetHospitalInfo
+
+§1.9.3.	获取医院开通支付类别(05a)
+http://127.0.0.1:8989/API/YiBao/GetPayType?centerCode=345&zhengce=344
+
+§1.9.4.	编码对照信息获取
+http://127.0.0.1:8989/API/YiBao/GetCodeInfo
+
+§1.9.5.	获取中心医保标准目录
+http://127.0.0.1:8989/API/YiBao/GetYibaoStandCategory?date=2018-07-01
+
+

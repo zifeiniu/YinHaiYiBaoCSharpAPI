@@ -1,0 +1,4 @@
+﻿prm_yab003	分中心编码
+prm_aac001	个人编码
+prm_ykb065	执行社保政策办法
+prm_akc192	入院日期

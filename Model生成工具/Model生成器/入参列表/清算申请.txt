@@ -1,0 +1,14 @@
+prm_yae366	清算期号                           
+prm_ykb065	执行社会保险办法                   
+prm_yka316	清算类别                           
+prm_ykb037	清算分中心                         
+prm_yka055	费用总额                           
+prm_yka248	基本医疗统筹支付金额               
+prm_yka062	大额医疗支付金额                   
+prm_yka063	公务员统筹支付金额                 
+prm_yke031	大额商保支付金额
+prm_yka065	个人帐户支付金额                   
+prm_ykc179	清算申请人                         
+prm_yke150	清算申请人时间                     
+prm_write 	check标志,
+prm_yke239 	清算类型,

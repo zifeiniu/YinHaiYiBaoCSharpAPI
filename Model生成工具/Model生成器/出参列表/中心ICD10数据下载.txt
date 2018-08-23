@@ -1,0 +1,6 @@
+YKE120	ICD10编码                 
+YKE223	ICD10副编码               
+YKE121	ICD10名称                 
+YKA260	拼音助记码
+YKA278	五笔助记码  
+AAE013	备注                      

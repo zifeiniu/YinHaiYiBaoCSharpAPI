@@ -1,0 +1,4 @@
+aaa100	代码类别	NULL
+aaa101	类别名称	NULL
+aaa102	代码值	NULL
+aaa103	代码名称	NOT NULL

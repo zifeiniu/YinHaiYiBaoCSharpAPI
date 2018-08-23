@@ -1,0 +1,10 @@
+Prm_yae099	业务流水号
+Prm_Ykb065	执行社会保险办法
+Prm_Aad030	数据来源
+Prm_Yke389	原科室名称
+Prm_Yke390	转入科室名称
+Prm_Yke396	转科时间
+Prm_Aae100	有效标志
+Prm_Aae011	经办人
+Prm_Ykc141	经办人姓名
+Prm_Aae036	经办时间

@@ -1,0 +1,9 @@
+prm_akc190	就诊编号
+prm_yab003	分中心编号
+prm_aka130	支付类别
+prm_ykb065	社会保险办法
+prm_hisfyze	HIS费用总额
+prm_yka110	发票号
+prm_aae013	备注
+prm_aae011	经办人
+prm_ykc141	经办人姓名
