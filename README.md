@@ -1,3 +1,9 @@
+
+##### 发现问问题的人还挺多，赶紧补发一个收款码！！！
+
+![image](https://raw.githubusercontent.com/zifeiniu/YinHaiYiBaoCSharpAPI/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200311113458.jpg)
+![image](https://github.com/AngelSXD/sxd_first_repository/blob/master/images/20160615165142.png)
+
 ## C#Model封装 银海医保的接口
 
 ### 介绍
